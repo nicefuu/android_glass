@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:columnCount="4"
+                android:gravity="center"
+                android:rowCount="11">
+
+                <TextView
+                    android:id="@+id/t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:layout_gravity="center"
+                    android:text="姓名"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/name_i"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_column="1"
+                    android:lines="1"
+                    android:ems="4"
+                    android:layout_columnWeight="1"
+                    android:background="@android:drawable/alert_light_frame"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/t2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_column="2"
+                    android:layout_gravity="center"
+                    android:text="年龄"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/age_i"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_column="3"
+                    android:lines="1"
+                    android:ems="4"
+                    android:maxLength="3"
+                    android:layout_columnWeight="1"
+                    android:background="@android:drawable/alert_light_frame"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/t3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="1"
+                    android:layout_column="0"
+                    android:layout_gravity="center"
+                    android:text="性别"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/sex_i"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="1"
+                    android:layout_column="1"
+                    android:lines="1"
+                    android:ems="4"
+                    android:maxLength="1"
+                    android:layout_columnWeight="1"
+                    android:background="@android:drawable/alert_light_frame"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/t4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="1"
+                    android:layout_column="2"
+                    android:layout_gravity="center"
+                    android:text="民族"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/nation_i"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="1"
+                    android:layout_column="3"
+                    android:lines="1"
+                    android:ems="4"
+                    android:layout_columnWeight="1"
+                    android:background="@android:drawable/alert_light_frame"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/t5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="2"
+                    android:layout_column="0"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="身份证号"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/IDnumber_i"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="2"
+                    android:layout_column="1"
+                    android:lines="1"
+                    android:ems="12"
+                    android:maxLength="18"
+                    android:layout_columnSpan="3"
+                    android:layout_columnWeight="1"
+                    android:background="@android:drawable/alert_light_frame"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/t6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="3"
+                    android:layout_column="0"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="手机号码"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/phonenumber_i"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="3"
+                    android:layout_column="1"
+                    android:lines="1"
+                    android:ems="12"
+                    android:inputType="number"
+                    android:layout_columnSpan="3"
+                    android:layout_columnWeight="1"
+                    android:background="@android:drawable/alert_light_frame"
+                    android:gravity="center" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="4"
+                    android:layout_column="0"
+                    android:layout_gravity="center"
+                    android:text="设置密码"
+                    android:textSize="18dp" />
+
+                <EditText
+                    android:id="@+id/password_i"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="4"
+                    android:layout_column="1"
+                    android:lines="1"
+                    android:ems="12"
+                    android:inputType="textPassword"
+                    android:layout_columnSpan="3"
+                    android:layout_columnWeight="1"
+                    android:background="@android:drawable/alert_light_frame"
+                    android:gravity="center" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="5"
+                    android:layout_column="0"
+                    android:layout_gravity="center"
+                    android:text="确认密码"
+                    android:textSize="18dp" />
+
+                <EditText
+                    android:id="@+id/confirm_i"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:lines="1"
+                    android:ems="12"
+                    android:inputType="textPassword"
+                    android:layout_row="5"
+                    android:layout_column="1"
+                    android:layout_columnSpan="3"
+                    android:layout_columnWeight="1"
+                    android:background="@android:drawable/alert_light_frame"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/t7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="6"
+                    android:layout_column="0"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="残疾证号"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/disability_i"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="6"
+                    android:layout_column="1"
+                    android:lines="1"
+                    android:ems="12"
+                    android:layout_columnSpan="3"
+                    android:layout_columnWeight="1"
+                    android:background="@android:drawable/alert_light_frame"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/t8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="7"
+                    android:layout_column="0"
+                    android:layout_gravity="center"
+                    android:text="紧急联系人"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/contact_i"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="7"
+                    android:layout_column="1"
+                    android:layout_columnWeight="1"
+                    android:ems="4"
+                    android:lines="1"
+                    android:background="@android:drawable/alert_light_frame"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/t9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="7"
+                    android:layout_column="2"
+                    android:layout_gravity="center"
+                    android:text="与本人关系"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/relationship_i"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="7"
+                    android:layout_column="3"
+                    android:layout_columnWeight="1"
+                    android:lines="1"
+                    android:ems="4"
+                    android:background="@android:drawable/alert_light_frame"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/t10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="8"
+                    android:layout_column="0"
+                    android:layout_gravity="center"
+                    android:text="紧急联系人电话"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/contactnumber_i"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="8"
+                    android:layout_column="1"
+                    android:layout_columnSpan="3"
+                    android:layout_columnWeight="1"
+                    android:inputType="number"
+                    android:lines="1"
+                    android:ems="12"
+                    android:background="@android:drawable/alert_light_frame"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/t11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="9"
+                    android:layout_column="0"
+                    android:layout_gravity="center"
+                    android:text="紧急联系人住址"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/address_i"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:lines="1"
+                    android:layout_row="9"
+                    android:layout_column="1"
+                    android:layout_columnSpan="3"
+                    android:layout_columnWeight="1"
+                    android:ems="12"
+                    android:background="@android:drawable/alert_light_frame"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/t12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="10"
+                    android:layout_column="0"
+                    android:layout_gravity="center"
+                    android:text="既往病史"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/PMH_i"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="10"
+                    android:layout_column="1"
+                    android:layout_columnSpan="3"
+                    android:layout_columnWeight="1"
+                    android:lines="1"
+                    android:ems="12"
+                    android:background="@android:drawable/alert_light_frame"
+                    android:gravity="center"
+                    android:hint="没有填“无”" />
+            </GridLayout>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="同意《光明眼镜隐私政策》和《光明眼镜用户协议》" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:text="提交"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

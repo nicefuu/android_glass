@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#B85454</color>
+    <color name="MainTitle">#000000</color>
+    <color name="Links">#03A9F4</color>
+    <color name="test">#88000000</color>
+    <color name="rtc_main_bg">#1B1B1B</color>
+    <color name="rtc_green_bg">#00A66B</color>
+    <color name="rtc_title_bg">#B7B7B7</color>
+</resources>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/back_impaired_center2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="81dp"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="92dp"
+        android:text="消费明细"
+        android:textColor="@color/MainTitle"
+        android:textSize="@dimen/MainTitle"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="168dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/back_impaired_center2">
+
+        <TableRow>
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            <TextView
+                android:layout_width="115dp"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:text="时间"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="141dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:text="服务时长/分"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="152dp"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:text="消费金额"
+                android:textSize="18sp" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="115dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="2020.7.8"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="141dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="25"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="158dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="99"
+                android:textSize="18sp" />
+
+        </TableRow>
+
+
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

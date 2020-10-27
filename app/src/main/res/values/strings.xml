@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">光明眼镜</string>
+    <string name="account">请在此输入账号</string>
+    <string name="password">请在此输入密码</string>
+    <string name="Title">欢迎使用光明眼镜</string>
+    <string name="password_head">密码：</string>
+    <string name="account_head">账号：</string>
+    <string name="no_account">没有账号，去注册</string>
+    <string name="lose_password">忘记密码？</string>
+    <string name="version">V1.0.0 Beta</string>
+    <string name="login">登录</string>
+    <string name="donation">捐赠入口</string>
+    <string name="impaired">视障用户</string>
+    <string name="service">服务用户</string>
+    <string name="forget_password">忘记密码</string>
+    <string name="call">请联系客服为您提供服务</string>
+    <string name="call_service">一键拨打客服电话</string>
+    <string name="impaired_main">视障者辅助识别系统</string>
+    <string name="AI">AI模式</string>
+    <string name="manual">人工模式</string>
+    <string name="user_center">用户中心</string>
+    <string name="uer_center_title">光明眼镜用户中心</string>
+    <string name="QingXiDu">识别清晰度</string>
+
+    <string name="rtc_room_input_error_tip">"房间号和用户名不能为空"</string>
+    <string name="rtc_permisson_error_tip">"用户没有允许需要的权限，加入通话失败"</string>
+    <string-array name="Threshold">
+        <item>60</item>
+        <item>65</item>
+        <item>70</item>
+        <item>75</item>
+        <item>80</item>
+        <item>85</item>
+        <item>90</item>
+        <item>95</item>
+        <item>100</item>
+    </string-array>
+
+    <string-array name="Angle">
+        <item>0</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+        <item>60</item>
+        <item>70</item>
+        <item>80</item>
+        <item>90</item>
+    </string-array>
+
+    <string-array name="Clarity">
+        <item>0</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+    </string-array>
+
+    <string-array name="date">
+        <item>时间                服务时长/分</item>
+        <item>2020.7.8            25</item>
+        <item>2020.7.9            20</item>
+        <item>2020.7.10           10</item>
+        <item>2020.7.11           5</item>
+        <item>2020.7.12           15</item>
+        <item>2020.7.13           10</item>
+        <item>2020.7.14           15</item>
+
+    </string-array>
+    <string name="title_activity_service_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+
+</resources>
